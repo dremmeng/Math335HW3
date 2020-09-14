@@ -114,15 +114,15 @@
 	\begin{enumerate}
 	\item
 		It looks normal with the proper symmetry and the fifteen percent variance.
-		\begin{figure}[h]
+		\begin{figure}[H]
 		\includegraphics{Samplemeans.png}
 		\end{figure}
 	\item
 		\begin{equation*}
 		\begin{split}
 		\sqrt{n}(\bar{X} - \lambda) &\rightarrow N(0,\sigma^{2}(x)) \\
-		\sqrt{100}(\bar{X} - \lambda) &\rightarrow N(1,1) \\
-		(\bar{X} - \lambda) &\rightarrow N(1,\frac{1}{100}) \\
+		\sqrt{100}(\bar{X} - \lambda) &\rightarrow N(0,1) \\
+		(\bar{X} - 1) &\rightarrow N(0,\frac{1}{100}) \\
 		\end{split}
 		\end{equation*}		
 	\item
@@ -143,7 +143,7 @@
 		\begin{split}
 		\sqrt{n}(\bar{X} - \lambda) &\rightarrow N(e^{-1},\sigma^{2}(x)\frac{d}{dx}(e^{-x})^{2}) \\
 		(\bar{X} - \lambda) &\rightarrow N(e^{-1},\frac{1}{100}(-e^{-1})^{2}) \\
-		(\bar{X} - \lambda) &\rightarrow N(e^{-1},\frac{e^{-2}}{100}) \\
+		(\bar{X} - e^{-1}) &\rightarrow N(0,\frac{e^{-2}}{100}) \\
 		\end{split}
 		\end{equation*}
 	\item
