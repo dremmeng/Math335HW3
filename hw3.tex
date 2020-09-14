@@ -47,8 +47,9 @@
 		\begin{split}
 		E[Y_{(1)}] & = \int_{0}^{\infty} (y*\frac{d}{dy}F_{Y_{(1)}}(y))dy \\
 		& = \int_{0}^{\infty} (\frac{-ny}{\theta} e^{\frac{-ny}{\theta}})dy \\
-		& = \int_{0}^{\infty} (y e^{\frac{-ny}{\theta}})dy \\
-		& = 0+0 - 0 -\frac{-\theta}{n}\\
+		& = ye^{\frac{-ny}{\theta}}]_{0}^{\infty} - \int_{0}^{\infty} (e^{\frac{-ny}{\theta}})dy \\
+		& = 0-0 +\frac{-\theta}{n} e^{\frac{-ny}{\theta}}]_{0}^{\infty}\\
+		& = 0-\frac{-\theta}{n}\\
 		& = \frac{\theta}{n}\\
 		\end{split}
 		\end{equation*}
@@ -59,7 +60,6 @@
 		\begin{split}
 		E[Y_{(1)}] & = \int_{0}^{\infty} (n*y*\frac{d}{dy}F_{Y_{(1)}}(y))dy \\
 		& = \int_{0}^{\infty} (\frac{-n^{2}y}{\theta} e^{\frac{-ny}{\theta}})dy \\
-		& = \int_{0}^{\infty} (yn e^{\frac{-ny}{\theta}})dy \\
 		& =n( 0+0 - 0 -\frac{-\theta}{n})\\
 		& = \theta \\
 		\end{split}
